@@ -1,0 +1,23 @@
+
+<html lang="en">
+  <head>
+    <title>Flash Cards</title>
+    <link rel="stylesheet" href="/static/stylesheets/style.css"/>
+  </head>
+  <body>
+    <header><img src="/static/img/logo.png"/>
+      <p>An app to help you study</p>
+    </header>
+    <section class="namecard">
+      <div class="namecard-login">
+        <p class="namecard-greeting">Hello, student!</p>
+      </div>
+      <form class="namecard-form" action="/hello" method="post">
+        <label class="namecard-prompt">Please enter your name
+          <input class="namecard-name" type="text" name="username"/>
+        </label>
+        <button class="namecard-submit" type="submit">Submit!</button>
+      </form>
+    </section>
+  </body>
+</html>
